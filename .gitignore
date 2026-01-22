@@ -1,0 +1,61 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Secrets
+*.env
+
+# RAG Assets (DO NOT COMMIT)
+assets/
+*.pkl
+*.index
+*.faiss
+
+# Data files
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite3
+
+# Model files
+*.bin
+*.pt
+*.onnx
+
+# Streamlit cache
+.streamlit/
+
+# HuggingFace cache
+.cache/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+*.pkl
+*.csv
+*.db
+__pycache__/
+__pycache__/
