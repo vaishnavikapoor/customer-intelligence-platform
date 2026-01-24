@@ -7,7 +7,7 @@ The system retrieves relevant complaint snippets using vector similarity search 
 ---
 ## Live Demo (Hugging Face Spaces)
 
-**Live App:** [text](https://huggingface.co/spaces/vaishnavikapoor/customer-intelligence-rag)
+**Live App:** https://huggingface.co/spaces/vaishnavikapoor/customer-intelligence-rag
 
 ## Tech Stack
 
@@ -37,7 +37,7 @@ The system retrieves relevant complaint snippets using vector similarity search 
 
 Example:
 
-![Out of Scope](Screenshots/screenshot3.png)
+![Out of Scope](https://github.com/vaishnavikapoor/customer-intelligence-platform/blob/main/Screenshots/Screenshot%202026-01-25%20021851.png)
 
 ---
 
@@ -45,18 +45,18 @@ Example:
 
 ### In-Scope Queries
 
-![Query 1](Screenshots/screenshot1.png) 
+![Query 1](https://github.com/vaishnavikapoor/customer-intelligence-platform/blob/main/Screenshots/Screenshot%202026-01-23%20005322.png) 
 
 ### Out-of-Scope Handling
 
-![Out of Scope](Screenshots/screenshot3.png)
+![Out of Scope](https://github.com/vaishnavikapoor/customer-intelligence-platform/blob/main/Screenshots/Screenshot%202026-01-23%20005404.png)
 
 ---
 
 ## Demo – FastAPI
 
-![API Docs](Screenshots/screenshot4.png)  
-![API Response](Screenshots/screenshot5.png)
+![API Docs](https://github.com/vaishnavikapoor/customer-intelligence-platform/blob/main/Screenshots/Screenshot%202026-01-23%20004646.png)  
+![API Response](https://github.com/vaishnavikapoor/customer-intelligence-platform/blob/main/Screenshots/Screenshot%202026-01-23%20004826.png)
 
 ---
 
