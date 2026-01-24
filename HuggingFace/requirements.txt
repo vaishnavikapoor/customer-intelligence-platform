@@ -1,0 +1,11 @@
+fastapi
+pandas
+numpy
+sentence-transformers
+huggingface-hub
+scikit-learn
+faiss-cpu
+torch
+tqdm
+python-dotenv
+groq

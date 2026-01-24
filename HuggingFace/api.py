@@ -1,6 +1,9 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
-from rag_engine import answer_with_sources
+
+def get_rag():
+    from rag_engine import answer_with_sources
+    return answer_with_sources
 
 app = FastAPI(
     title="Customer Intelligence RAG API",
@@ -10,7 +13,7 @@ app = FastAPI(
 
 class QueryRequest(BaseModel):
     question: str = Field(..., min_length=5)
-    k: int = Field(default=4, ge=1, le=10)
+    k: int = Field(default=3, ge=1, le=10)
 
 class QueryResponse(BaseModel):
     question: str
@@ -24,6 +27,7 @@ def health_check():
 @app.post("/ask", response_model=QueryResponse)
 def ask(query: QueryRequest):
     try:
+        answer_with_sources = get_rag()
         return answer_with_sources(query.question, query.k)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
