@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+sentence-transformers
+faiss-cpu
+huggingface-hub
+numpy
+pandas
+gdown
+python-dotenv
+tqdm
+torch
